@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD582C0DA1D0D100B32029 /* TKFractalDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58280DA1D0D100B32029 /* TKFractalDocument.xib */; };
+		1DDD582D0DA1D0D100B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD582A0DA1D0D100B32029 /* MainMenu.xib */; };
+		8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */; };
+		8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
+		8D15AC310486D014006FF6A4 /* TKFractalDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4ACFDCFA73011CA2CEA /* TKFractalDocument.m */; settings = {ATTRIBUTES = (); }; };
+		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
+		BC1BE5E31281F94D0019A8C1 /* BGHUDAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC1BE5E21281F94D0019A8C1 /* BGHUDAppKit.framework */; };
+		BC305CFB127BC5B40019293C /* TKPaletteEditorWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC305CFA127BC5B40019293C /* TKPaletteEditorWindow.xib */; };
+		BC57E800123A805E00EF797E /* TKPalette.m in Sources */ = {isa = PBXBuildFile; fileRef = BC57E7FF123A805E00EF797E /* TKPalette.m */; };
+		BC7C3E2012396AF400D5483B /* TKFractalParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7C3E1F12396AF400D5483B /* TKFractalParameters.m */; };
+		BC8D5DD712861C2E006ECFDC /* TKPaletteEditorWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8D5DD612861C2E006ECFDC /* TKPaletteEditorWindowController.m */; };
+		BCC7A4D01231BA8B00BE0D9B /* TKFractalPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC7A4CF1231BA8B00BE0D9B /* TKFractalPoint.m */; };
+		BCC7A4D81231C8F300BE0D9B /* TKFractalView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC7A4D71231C8F300BE0D9B /* TKFractalView.m */; };
+		BCC7A4EA1231C9DA00BE0D9B /* TKMandelbrotPointCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC7A4E91231C9DA00BE0D9B /* TKMandelbrotPointCalculator.m */; };
+		BCC7A4FA1231D0DD00BE0D9B /* complex_math.c in Sources */ = {isa = PBXBuildFile; fileRef = BCC7A4F81231D0DD00BE0D9B /* complex_math.c */; };
+		BCC7A5521231EB3E00BE0D9B /* TKCocoaFractalRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC7A5511231EB3E00BE0D9B /* TKCocoaFractalRenderer.m */; };
+		BCC7A5581232085E00BE0D9B /* TKFractalData.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC7A5571232085E00BE0D9B /* TKFractalData.m */; };
+		BCC7A56D12320F2F00BE0D9B /* TK2DMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC7A56C12320F2F00BE0D9B /* TK2DMutableArray.m */; };
+		BCC7A58B123217F500BE0D9B /* TKComplexWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC7A58A123217F500BE0D9B /* TKComplexWrapper.m */; };
+		BCC7A5D91232896500BE0D9B /* TKEscapeTimeColorFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC7A5D81232896500BE0D9B /* TKEscapeTimeColorFunction.m */; };
+		BCC7A5E6123289CF00BE0D9B /* TKOrbitTrapColorFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC7A5E5123289CF00BE0D9B /* TKOrbitTrapColorFunction.m */; };
+		BCC7A6DD1235A8A400BE0D9B /* TKFractalWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC7A6DC1235A8A400BE0D9B /* TKFractalWindowController.m */; };
+		BCC7A89A1236DC7E00BE0D9B /* TKMandelabraAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC7A8991236DC7E00BE0D9B /* TKMandelabraAppController.m */; };
+		BCC7A8D31236E31E00BE0D9B /* TKFractalParametersInspectorWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC7A8D21236E31E00BE0D9B /* TKFractalParametersInspectorWindowController.m */; };
+		BCC7A9191236E78900BE0D9B /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC7A9181236E78900BE0D9B /* Constants.m */; };
+		BCC7A92C12371BC200BE0D9B /* TKFractalParametersInspectorWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCC7A92A12371BC200BE0D9B /* TKFractalParametersInspectorWindow.xib */; };
+		BCC7AA201237CE2500BE0D9B /* TKFractalParametersInspectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC7AA121237310500BE0D9B /* TKFractalParametersInspectorView.m */; };
+		BCCC76C8128640B10084AF80 /* TKPaletteEditorView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCC76C7128640B10084AF80 /* TKPaletteEditorView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C1660FE840EACC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FBA07B3F13500E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58290DA1D0D100B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/TKFractalDocument.xib; sourceTree = "<group>"; };
+		1DDD582B0DA1D0D100B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2564AD2C0F5327BB00F57823 /* Mandelabra_2_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mandelabra_2_Prefix.pch; sourceTree = "<group>"; };
+		2A37F4ACFDCFA73011CA2CEA /* TKFractalDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKFractalDocument.m; sourceTree = "<group>"; };
+		2A37F4AEFDCFA73011CA2CEA /* TKFractalDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKFractalDocument.h; sourceTree = "<group>"; };
+		2A37F4B0FDCFA73011CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A37F4BAFDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D15AC360486D014006FF6A4 /* Mandelabra_2-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Mandelabra_2-Info.plist"; sourceTree = "<group>"; };
+		8D15AC370486D014006FF6A4 /* Mandelabra_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mandelabra_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC1BE5E21281F94D0019A8C1 /* BGHUDAppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BGHUDAppKit.framework; path = /Users/timkemp/Library/Frameworks/BGHUDAppKit.framework; sourceTree = "<absolute>"; };
+		BC305CFA127BC5B40019293C /* TKPaletteEditorWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TKPaletteEditorWindow.xib; path = English.lproj/TKPaletteEditorWindow.xib; sourceTree = "<group>"; };
+		BC57E7FE123A805E00EF797E /* TKPalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKPalette.h; sourceTree = "<group>"; };
+		BC57E7FF123A805E00EF797E /* TKPalette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKPalette.m; sourceTree = "<group>"; };
+		BC7C3E1E12396AF400D5483B /* TKFractalParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKFractalParameters.h; sourceTree = "<group>"; };
+		BC7C3E1F12396AF400D5483B /* TKFractalParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKFractalParameters.m; sourceTree = "<group>"; };
+		BC8D5DD512861C2E006ECFDC /* TKPaletteEditorWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKPaletteEditorWindowController.h; sourceTree = "<group>"; };
+		BC8D5DD612861C2E006ECFDC /* TKPaletteEditorWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKPaletteEditorWindowController.m; sourceTree = "<group>"; };
+		BCC7A4CD1231B65000BE0D9B /* TKIPointCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKIPointCalculator.h; sourceTree = "<group>"; };
+		BCC7A4CE1231BA8B00BE0D9B /* TKFractalPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKFractalPoint.h; sourceTree = "<group>"; };
+		BCC7A4CF1231BA8B00BE0D9B /* TKFractalPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKFractalPoint.m; sourceTree = "<group>"; };
+		BCC7A4D21231BB8000BE0D9B /* TKIColorFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKIColorFunction.h; sourceTree = "<group>"; };
+		BCC7A4D31231BBC800BE0D9B /* TKIFractalRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKIFractalRenderer.h; sourceTree = "<group>"; };
+		BCC7A4D61231C8F300BE0D9B /* TKFractalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKFractalView.h; sourceTree = "<group>"; };
+		BCC7A4D71231C8F300BE0D9B /* TKFractalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKFractalView.m; sourceTree = "<group>"; };
+		BCC7A4E81231C9DA00BE0D9B /* TKMandelbrotPointCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKMandelbrotPointCalculator.h; sourceTree = "<group>"; };
+		BCC7A4E91231C9DA00BE0D9B /* TKMandelbrotPointCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKMandelbrotPointCalculator.m; sourceTree = "<group>"; };
+		BCC7A4F81231D0DD00BE0D9B /* complex_math.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = complex_math.c; sourceTree = "<group>"; };
+		BCC7A4F91231D0DD00BE0D9B /* complex_math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = complex_math.h; sourceTree = "<group>"; };
+		BCC7A5501231EB3E00BE0D9B /* TKCocoaFractalRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKCocoaFractalRenderer.h; sourceTree = "<group>"; };
+		BCC7A5511231EB3E00BE0D9B /* TKCocoaFractalRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKCocoaFractalRenderer.m; sourceTree = "<group>"; };
+		BCC7A5561232085E00BE0D9B /* TKFractalData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKFractalData.h; sourceTree = "<group>"; };
+		BCC7A5571232085E00BE0D9B /* TKFractalData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKFractalData.m; sourceTree = "<group>"; };
+		BCC7A56B12320F2F00BE0D9B /* TK2DMutableArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TK2DMutableArray.h; sourceTree = "<group>"; };
+		BCC7A56C12320F2F00BE0D9B /* TK2DMutableArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TK2DMutableArray.m; sourceTree = "<group>"; };
+		BCC7A589123217F500BE0D9B /* TKComplexWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKComplexWrapper.h; sourceTree = "<group>"; };
+		BCC7A58A123217F500BE0D9B /* TKComplexWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKComplexWrapper.m; sourceTree = "<group>"; };
+		BCC7A5D71232896500BE0D9B /* TKEscapeTimeColorFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKEscapeTimeColorFunction.h; sourceTree = "<group>"; };
+		BCC7A5D81232896500BE0D9B /* TKEscapeTimeColorFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKEscapeTimeColorFunction.m; sourceTree = "<group>"; };
+		BCC7A5E4123289CF00BE0D9B /* TKOrbitTrapColorFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKOrbitTrapColorFunction.h; sourceTree = "<group>"; };
+		BCC7A5E5123289CF00BE0D9B /* TKOrbitTrapColorFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKOrbitTrapColorFunction.m; sourceTree = "<group>"; };
+		BCC7A6DB1235A8A400BE0D9B /* TKFractalWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKFractalWindowController.h; sourceTree = "<group>"; };
+		BCC7A6DC1235A8A400BE0D9B /* TKFractalWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKFractalWindowController.m; sourceTree = "<group>"; };
+		BCC7A8981236DC7E00BE0D9B /* TKMandelabraAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKMandelabraAppController.h; sourceTree = "<group>"; };
+		BCC7A8991236DC7E00BE0D9B /* TKMandelabraAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKMandelabraAppController.m; sourceTree = "<group>"; };
+		BCC7A8D11236E31E00BE0D9B /* TKFractalParametersInspectorWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKFractalParametersInspectorWindowController.h; sourceTree = "<group>"; };
+		BCC7A8D21236E31E00BE0D9B /* TKFractalParametersInspectorWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKFractalParametersInspectorWindowController.m; sourceTree = "<group>"; };
+		BCC7A9171236E78900BE0D9B /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		BCC7A9181236E78900BE0D9B /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		BCC7A92B12371BC200BE0D9B /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/TKFractalParametersInspectorWindow.xib; sourceTree = "<group>"; };
+		BCC7AA111237310500BE0D9B /* TKFractalParametersInspectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKFractalParametersInspectorView.h; sourceTree = "<group>"; };
+		BCC7AA121237310500BE0D9B /* TKFractalParametersInspectorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKFractalParametersInspectorView.m; sourceTree = "<group>"; };
+		BCCC76C6128640B10084AF80 /* TKPaletteEditorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKPaletteEditorView.h; sourceTree = "<group>"; };
+		BCCC76C7128640B10084AF80 /* TKPaletteEditorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKPaletteEditorView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D15AC330486D014006FF6A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */,
+				BC1BE5E31281F94D0019A8C1 /* BGHUDAppKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A8FEA54F5311CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */,
+				13E42FBA07B3F13500E4EEF1 /* CoreData.framework */,
+				2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB0FE9D524F11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D15AC370486D014006FF6A4 /* Mandelabra_2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A37F4AAFDCFA73011CA2CEA /* Mandelabra_2 */ = {
+			isa = PBXGroup;
+			children = (
+				BCC7A4D51231C8D300BE0D9B /* Protocols */,
+				2A37F4ABFDCFA73011CA2CEA /* Implementation */,
+				2A37F4AFFDCFA73011CA2CEA /* Other sources */,
+				2A37F4B8FDCFA73011CA2CEA /* Resources */,
+				2A37F4C3FDCFA73011CA2CEA /* Frameworks */,
+				19C28FB0FE9D524F11CA2CBB /* Products */,
+			);
+			name = Mandelabra_2;
+			sourceTree = "<group>";
+		};
+		2A37F4ABFDCFA73011CA2CEA /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				BCC7A5EE12328A0E00BE0D9B /* Calculation and colour functions */,
+				BCC7A5ED12328A0A00BE0D9B /* App logic & display */,
+			);
+			name = Implementation;
+			sourceTree = "<group>";
+		};
+		2A37F4AFFDCFA73011CA2CEA /* Other sources */ = {
+			isa = PBXGroup;
+			children = (
+				BCC7A4F81231D0DD00BE0D9B /* complex_math.c */,
+				BCC7A4F91231D0DD00BE0D9B /* complex_math.h */,
+				2564AD2C0F5327BB00F57823 /* Mandelabra_2_Prefix.pch */,
+				2A37F4B0FDCFA73011CA2CEA /* main.m */,
+				BCC7A9171236E78900BE0D9B /* Constants.h */,
+				BCC7A9181236E78900BE0D9B /* Constants.m */,
+			);
+			name = "Other sources";
+			sourceTree = "<group>";
+		};
+		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */,
+				8D15AC360486D014006FF6A4 /* Mandelabra_2-Info.plist */,
+				BCC7A92A12371BC200BE0D9B /* TKFractalParametersInspectorWindow.xib */,
+				BC305CFA127BC5B40019293C /* TKPaletteEditorWindow.xib */,
+				089C165FFE840EACC02AAC07 /* InfoPlist.strings */,
+				1DDD58280DA1D0D100B32029 /* TKFractalDocument.xib */,
+				1DDD582A0DA1D0D100B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */,
+				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
+				BC1BE5E21281F94D0019A8C1 /* BGHUDAppKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC1BE60712830B4A0019A8C1 /* Palette Editor */ = {
+			isa = PBXGroup;
+			children = (
+				BC57E7FE123A805E00EF797E /* TKPalette.h */,
+				BC57E7FF123A805E00EF797E /* TKPalette.m */,
+				BC8D5DD512861C2E006ECFDC /* TKPaletteEditorWindowController.h */,
+				BC8D5DD612861C2E006ECFDC /* TKPaletteEditorWindowController.m */,
+				BCCC76C6128640B10084AF80 /* TKPaletteEditorView.h */,
+				BCCC76C7128640B10084AF80 /* TKPaletteEditorView.m */,
+			);
+			name = "Palette Editor";
+			sourceTree = "<group>";
+		};
+		BCC7A4D51231C8D300BE0D9B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				BCC7A4D31231BBC800BE0D9B /* TKIFractalRenderer.h */,
+				BCC7A4D21231BB8000BE0D9B /* TKIColorFunction.h */,
+				BCC7A4CD1231B65000BE0D9B /* TKIPointCalculator.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		BCC7A5ED12328A0A00BE0D9B /* App logic & display */ = {
+			isa = PBXGroup;
+			children = (
+				BCC7A8981236DC7E00BE0D9B /* TKMandelabraAppController.h */,
+				BCC7A8991236DC7E00BE0D9B /* TKMandelabraAppController.m */,
+				BCC7AA10123730E900BE0D9B /* Parameters inspector */,
+				BCC7A6DB1235A8A400BE0D9B /* TKFractalWindowController.h */,
+				BCC7A6DC1235A8A400BE0D9B /* TKFractalWindowController.m */,
+				2A37F4AEFDCFA73011CA2CEA /* TKFractalDocument.h */,
+				2A37F4ACFDCFA73011CA2CEA /* TKFractalDocument.m */,
+				BCC7A4D61231C8F300BE0D9B /* TKFractalView.h */,
+				BCC7A4D71231C8F300BE0D9B /* TKFractalView.m */,
+				BCC7A5501231EB3E00BE0D9B /* TKCocoaFractalRenderer.h */,
+				BCC7A5511231EB3E00BE0D9B /* TKCocoaFractalRenderer.m */,
+				BC1BE60712830B4A0019A8C1 /* Palette Editor */,
+			);
+			name = "App logic & display";
+			sourceTree = "<group>";
+		};
+		BCC7A5EE12328A0E00BE0D9B /* Calculation and colour functions */ = {
+			isa = PBXGroup;
+			children = (
+				BC7C3E1E12396AF400D5483B /* TKFractalParameters.h */,
+				BC7C3E1F12396AF400D5483B /* TKFractalParameters.m */,
+				BCC7A589123217F500BE0D9B /* TKComplexWrapper.h */,
+				BCC7A58A123217F500BE0D9B /* TKComplexWrapper.m */,
+				BCC7A56B12320F2F00BE0D9B /* TK2DMutableArray.h */,
+				BCC7A56C12320F2F00BE0D9B /* TK2DMutableArray.m */,
+				BCC7A5561232085E00BE0D9B /* TKFractalData.h */,
+				BCC7A5571232085E00BE0D9B /* TKFractalData.m */,
+				BCC7A4CE1231BA8B00BE0D9B /* TKFractalPoint.h */,
+				BCC7A4CF1231BA8B00BE0D9B /* TKFractalPoint.m */,
+				BCC7A4E81231C9DA00BE0D9B /* TKMandelbrotPointCalculator.h */,
+				BCC7A4E91231C9DA00BE0D9B /* TKMandelbrotPointCalculator.m */,
+				BCC7A5D71232896500BE0D9B /* TKEscapeTimeColorFunction.h */,
+				BCC7A5D81232896500BE0D9B /* TKEscapeTimeColorFunction.m */,
+				BCC7A5E4123289CF00BE0D9B /* TKOrbitTrapColorFunction.h */,
+				BCC7A5E5123289CF00BE0D9B /* TKOrbitTrapColorFunction.m */,
+			);
+			name = "Calculation and colour functions";
+			sourceTree = "<group>";
+		};
+		BCC7AA10123730E900BE0D9B /* Parameters inspector */ = {
+			isa = PBXGroup;
+			children = (
+				BCC7A8D11236E31E00BE0D9B /* TKFractalParametersInspectorWindowController.h */,
+				BCC7A8D21236E31E00BE0D9B /* TKFractalParametersInspectorWindowController.m */,
+				BCC7AA111237310500BE0D9B /* TKFractalParametersInspectorView.h */,
+				BCC7AA121237310500BE0D9B /* TKFractalParametersInspectorView.m */,
+			);
+			name = "Parameters inspector";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D15AC270486D014006FF6A4 /* Mandelabra_2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "Mandelabra_2" */;
+			buildPhases = (
+				8D15AC2B0486D014006FF6A4 /* Resources */,
+				8D15AC300486D014006FF6A4 /* Sources */,
+				8D15AC330486D014006FF6A4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mandelabra_2;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Mandelabra_2;
+			productReference = 8D15AC370486D014006FF6A4 /* Mandelabra_2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "Mandelabra_2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* Mandelabra_2 */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D15AC270486D014006FF6A4 /* Mandelabra_2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D15AC2B0486D014006FF6A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */,
+				8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */,
+				1DDD582C0DA1D0D100B32029 /* TKFractalDocument.xib in Resources */,
+				1DDD582D0DA1D0D100B32029 /* MainMenu.xib in Resources */,
+				BCC7A92C12371BC200BE0D9B /* TKFractalParametersInspectorWindow.xib in Resources */,
+				BC305CFB127BC5B40019293C /* TKPaletteEditorWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D15AC300486D014006FF6A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC310486D014006FF6A4 /* TKFractalDocument.m in Sources */,
+				8D15AC320486D014006FF6A4 /* main.m in Sources */,
+				BCC7A4D01231BA8B00BE0D9B /* TKFractalPoint.m in Sources */,
+				BCC7A4D81231C8F300BE0D9B /* TKFractalView.m in Sources */,
+				BCC7A4EA1231C9DA00BE0D9B /* TKMandelbrotPointCalculator.m in Sources */,
+				BCC7A4FA1231D0DD00BE0D9B /* complex_math.c in Sources */,
+				BCC7A5521231EB3E00BE0D9B /* TKCocoaFractalRenderer.m in Sources */,
+				BCC7A5581232085E00BE0D9B /* TKFractalData.m in Sources */,
+				BCC7A56D12320F2F00BE0D9B /* TK2DMutableArray.m in Sources */,
+				BCC7A58B123217F500BE0D9B /* TKComplexWrapper.m in Sources */,
+				BCC7A5D91232896500BE0D9B /* TKEscapeTimeColorFunction.m in Sources */,
+				BCC7A5E6123289CF00BE0D9B /* TKOrbitTrapColorFunction.m in Sources */,
+				BCC7A6DD1235A8A400BE0D9B /* TKFractalWindowController.m in Sources */,
+				BCC7A89A1236DC7E00BE0D9B /* TKMandelabraAppController.m in Sources */,
+				BCC7A8D31236E31E00BE0D9B /* TKFractalParametersInspectorWindowController.m in Sources */,
+				BCC7A9191236E78900BE0D9B /* Constants.m in Sources */,
+				BCC7AA201237CE2500BE0D9B /* TKFractalParametersInspectorView.m in Sources */,
+				BC7C3E2012396AF400D5483B /* TKFractalParameters.m in Sources */,
+				BC57E800123A805E00EF797E /* TKPalette.m in Sources */,
+				BC8D5DD712861C2E006ECFDC /* TKPaletteEditorWindowController.m in Sources */,
+				BCCC76C8128640B10084AF80 /* TKPaletteEditorView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165FFE840EACC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1660FE840EACC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58280DA1D0D100B32029 /* TKFractalDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58290DA1D0D100B32029 /* English */,
+			);
+			name = TKFractalDocument.xib;
+			sourceTree = "<group>";
+		};
+		1DDD582A0DA1D0D100B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD582B0DA1D0D100B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A37F4BAFDCFA73011CA2CEA /* English */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		BCC7A92A12371BC200BE0D9B /* TKFractalParametersInspectorWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCC7A92B12371BC200BE0D9B /* English */,
+			);
+			name = TKFractalParametersInspectorWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C05733C808A9546B00998B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../BGHUDAppKit/build/Debug\"",
+					"\"$(SRCROOT)/../../../Library/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Mandelabra_2_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Mandelabra_2-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Mandelabra_2;
+			};
+			name = Debug;
+		};
+		C05733C908A9546B00998B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../BGHUDAppKit/build/Debug\"",
+					"\"$(SRCROOT)/../../../Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Mandelabra_2_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Mandelabra_2-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Mandelabra_2;
+			};
+			name = Release;
+		};
+		C05733CC08A9546B00998B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C05733CD08A9546B00998B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "Mandelabra_2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05733C808A9546B00998B17 /* Debug */,
+				C05733C908A9546B00998B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "Mandelabra_2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05733CC08A9546B00998B17 /* Debug */,
+				C05733CD08A9546B00998B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+}
