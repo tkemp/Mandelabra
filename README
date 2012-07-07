@@ -5,3 +5,5 @@ The 'unique' feature of this program against the other million Mandelbrot explor
 I was working on multicore support using Grand Central Dispatch. This works, but introduces a few graphics anomalies (missing lines.)
 
 All in all, there's nothing very exciting here.
+
+If you're going to try it, open up the Calculation Parameters window from the Fractal menu and turn off Parallel Processing. Set a reasonable max iter value (500 say) and hit Plot. You might need to drag the window to force it to redraw since I was working on this when I put the code down in 2010.
