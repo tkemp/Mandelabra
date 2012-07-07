@@ -1,0 +1,7 @@
+This is a Mandelbrot generator written in Cocoa for OSX 10.6. It hasn't been updated for Lion. I wrote this to learn the Cocoa API.
+
+The 'unique' feature of this program against the other million Mandelbrot explorers is that this one is quite slow, is limited to double precision calculations (meaning you can't keep zooming forever) and doesn't have any saving or loading. It does, however, provide a nice visualisation of the orbit of each point as you move your mouse around.
+
+I was working on multicore support using Grand Central Dispatch. This works, but introduces a few graphics anomalies (missing lines.)
+
+All in all, there's nothing very exciting here.
